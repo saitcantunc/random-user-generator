@@ -37,6 +37,12 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
+.title {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 3rem auto;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
@@ -75,9 +81,13 @@ code {
 }
 
 .card h5 {
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .card .location {
 	font-size: 17px;
+}
+
+span {
+	font-weight: 800;
 }

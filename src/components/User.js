@@ -14,9 +14,21 @@ const User = ({ user }) => {
 						</h5>
 						<p className='card-text'>
 							<ul>
-								<li>Email: {user.email}</li>
-								<li>Phone: {user.phone}</li>
-								<li>Age: {user.dob.age}</li>
+								<li>
+									<span>Username:</span> {user.login.username}
+								</li>
+								<li>
+									<span>Password:</span> {user.login.password}
+								</li>
+								<li>
+									<span>Email:</span> {user.email}
+								</li>
+								<li>
+									<span>Phone:</span> {user.phone}
+								</li>
+								<li>
+									<span>Age:</span> {user.dob.age}
+								</li>
 							</ul>
 						</p>
 						<p className='card-text location'>
